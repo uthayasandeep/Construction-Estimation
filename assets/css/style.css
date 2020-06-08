@@ -1,0 +1,872 @@
+html,
+body{
+    height: 100%;
+    width:  100%;
+
+}
+/* ================================================HOMEPAGE============================================================================> */
+/*----- navigation -----*/
+#first-page .navbar{
+    background-color: black !important;
+    border-radius: 0%;
+    margin-bottom: 0px;
+
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background: #fff;
+}
+ .collapse .nav li a{
+    color: white !important;
+  }
+.navbar{
+  padding:8px;
+    
+}
+.collapse .nav li a:hover{
+  color: red !important;
+  background-color: black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+
+
+body{
+  margin: 0px;
+}
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.Grid1k {
+padding: 0 15px;
+max-width: 1200px;
+margin: auto;
+}
+
+.blocks-box,
+.slick-slider {
+margin: 0;
+padding: 0!important;
+}
+
+.slick-slide {
+float: left /* If RTL Make This Right */ ;
+padding: 0;
+}
+
+/* ==== Slider Style === */
+.Modern-Slider{
+  height:240px
+
+}
+
+
+.Modern-Slider .item .info > div{
+  display:block!important;
+/* vertical-align:middle; */
+  float: left;
+  margin-top:80px;
+  margin-left: 20px;
+}
+
+
+.Modern-Slider .NextArrow{
+  position:absolute;
+  top:50%;
+  right:0px;
+  width:45px;
+  height:45px;
+  background:rgba(0,0,0,.50);
+  border:0 none;
+  margin-top:-22.5px;
+  text-align:center;
+  font:20px/45px FontAwesome;
+  color:#FFF;
+  z-index:5;
+}
+
+
+.Modern-Slider .NextArrow:before{content:'\f105';}
+
+.Modern-Slider .PrevArrow{
+  position:absolute;
+  top:50%;
+  left:0px;
+  width:45px;
+  height:45px;
+  background:rgba(0,0,0,.50);
+  border:0 none;
+  margin-top:-22.5px;
+  text-align:center;
+  font:20px/45px FontAwesome;
+  color:#FFF;
+  z-index:5;
+}
+
+.Modern-Slider .PrevArrow:before{content:'\f104';}
+
+.Modern-Slider .slick-dots{
+  position:absolute;
+  background:rgba(255,255,255,.20);
+  width:100%;
+  left:0px;
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+.Modern-Slider .slick-dots li button{display:none;}
+.Modern-Slider .slick-dots li{
+  float:left;
+  width:0px;
+  height:5px;
+  background:#d62828;
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  display: none;
+}
+
+.Modern-Slider .slick-dots li.slick-active{
+  width:100%;
+  animation:ProgressDots 11s both;
+}
+
+
+.Modern-Slider .item h3{
+  font:15px RalewayB;
+  text-transform:uppercase;
+  color:#FFF;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-align: left;
+}
+
+.Modern-Slider .item h5{
+  margin:0;
+  padding:0;
+  font:15px RalewayR;
+  color:#FFF;
+  max-width:600px;
+  overflow:hidden;
+  height:60px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.Modern-Slider a{
+  font-size: 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px 35px;
+  border-radius: 35px;
+  color: white;
+  float: left;
+}
+.Modern-Slider a:hover{
+  background-color: red;
+  border: 0px;
+}
+
+
+.Modern-Slider span{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding-right: 10px;
+
+}
+
+.Modern-Slider .item.slick-active h3{
+  animation:fadeInDown 1s both 1s;
+}
+
+.Modern-Slider .item.slick-active h5{
+  animation:fadeInDown 1s both 1.5s;
+}
+.Modern-Slider .item.slick-active a{
+  animation:fadeInDown 1s both 1s;
+
+}
+
+/* .Modern-Slider .item.slick-active{
+animation:Slick-FastSwipeIn 1s both;
+} */
+
+.Modern-Slider {
+  background:#000;
+  background-image: url("images/two.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  width: 100%;
+  opacity: 1;
+  visibility: inherit; 
+}
+
+/* ==== Slider Image Transition === */
+@keyframes Slick-FastSwipeIn{
+  0%{transform:rotate3d(0,1,0,150deg) scale(0)  perspective(400px);} 
+  100%{transform:rotate3d(0,1,0,0deg) scale(1) perspective(400px);} 
+}
+
+@-webkit-keyframes ProgressDots{from{width:0px;}to{width:100%;}}
+@keyframes ProgressDots{from{width:0px;}to{width:100%;}}
+
+/* ==== Slick Slider Css Ruls === */
+.slick-slider{position:relative;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}
+.slick-list:focus{outline:none}.slick-list.dragging{cursor:hand}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.slick-track{position:relative;top:0;left:0;display:block}
+.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}
+.slick-loading .slick-track{visibility:hidden}
+.slick-slide{display:none;float:left /* If RTL Make This Right */ ;height:100%;min-height:1px}
+.slick-slide.dragging img{pointer-events:none}
+.slick-initialized .slick-slide{display:block}
+.slick-loading .slick-slide{visibility:hidden}
+.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+
+.Modern-Slider .slick-dots {
+top: 100px;
+}
+
+/* ------------slider------------ */
+
+
+.intro-section .intro-page:nth-child(odd) {
+  background: #ea1818;
+}
+.intro-section .intro-page:nth-child(even) {
+  background: black;
+}
+
+.intro-section h2{
+  font-family: 'Roboto Slab';
+  font-size: 25px;
+}
+.intro-section .intro-page {
+  /* width: 25%; */
+  min-height: 340px;
+  float: left;
+  color: #fff;
+  background-color: #ccc;
+  position: relative;
+   overflow: hidden;
+}
+.intro-section .intro-page{
+  padding-top: 30px;
+}
+.intro-section .intro-page p{
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.intro-page a.learn-more {
+  position: absolute;
+  color: #ff2a40;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  left: 0;
+  bottom: 0px;
+  padding: 10px;
+}
+.intro-page a {
+  display: none;
+  padding: 20px;
+}
+
+.intro-page:hover a{
+  display: block; 
+  text-decoration: none;  
+}
+ .contents{
+  transition: 0.2s;
+}
+ .contents:hover {
+  transform: translate(0, -20px);
+}
+
+.index-third{
+  background-color: white;
+  height: 620px;
+}
+
+.index-third img{
+  width: 334px;
+  height: 300px;
+  margin-top: 15px;
+}
+.index-third p{
+  color:firebrick;
+  font-size: 19px;
+  line-height: 1.8;
+  font-family: 'open sans';
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 10px;
+}
+.index-third h3{
+  color: black;
+  font-family: 'roboto slab';
+  font-weight: 900;
+}
+
+
+
+.index-four{
+  background-color:#1f1d1c;
+  height: 820px;
+}
+
+.index-four img{
+  width: 334px;
+  height: 300px;
+  padding-top: 15px;
+}
+.index-four p{
+  color:white;
+  font-size: 17px;
+  line-height: 1.8;
+  font-family: 'open sans';
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 10px;
+}
+.index-four h3{
+  color:lightgreen;
+  font-family: 'roboto slab';
+  font-weight: 900;
+}
+
+
+.index-five{
+  background-color:white;
+  height: 1300px;
+}
+
+.index-five img{
+  width: 334px;
+  height: 300px;
+  padding-top: 15px;
+}
+.index-five p{
+  color:black;
+  font-size: 17px;
+  line-height: 1.8;
+  font-family: 'open sans';
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 10px;
+}
+.index-five h3{
+  color:red;
+  font-family: 'roboto slab';
+  font-weight: 900;
+}
+
+
+.why-we{
+  background-image: url("images/hat.jpg");
+  min-height: 280px;
+  position: relative;
+  background-size: cover;
+  background-position: 50%  50%;
+  background-repeat: no-repeat;
+}
+.why-we h2{
+  text-align: center;
+  font-size: 38px;
+  font-family: 'roboto slab';
+  font-weight: 900;
+  color: black;
+}
+.why-we p{
+  margin-left: 10px;
+  font-family: initial;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  padding-bottom: 5px;
+}
+
+  /* --------------------page------------------------ */
+  /* --------------------------footer-------------------- */
+  #footer{
+    height: 200px;
+    margin-top: -20px;
+  }
+
+  #footer h2{
+    font-family: 'roboto slab';
+    font-size: 34px;
+    color: red;
+    padding-top: 12px;
+    font-weight: 900;
+  }
+  #footer ul{
+    display: flex;
+  }
+
+  .list-unstyled a{
+    color: white;
+  }
+  .list-foot a{
+    color: white;
+  }
+
+  .foot-icon li{
+    padding-right:17px;
+    margin-left: 20px;
+    padding-top: 20px
+  }
+  .foot-2 li{
+    padding-right: 0px;
+    margin-left: 32px;
+    padding-top: 10px;
+  }
+  .list-unstyled i{
+    padding-right: 7px;
+  }
+  .list-foot i{
+    padding-right: 7px;
+  }
+
+  .list-unstyled  li:hover i{
+    color: #C02232;
+    outline: none;
+  }
+  .list-unstyled li:hover a{
+    text-decoration: none;
+  }
+  .list-unstyled li {
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+    right:0;
+  }
+  /* .list-unstyled li:hover {
+    margin-left:5px;
+  } */
+
+  .list-foot li:hover i{
+    color: #C02232;
+    outline: none;
+  }
+  .list-foot li:hover a{
+    text-decoration: none;
+  }
+  .list-foot li {
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+    right:0;
+    list-style: none;
+  }
+  /* .list-foot li:hover {
+    padding-right:5px;
+  } */
+  /* -----------------------footer------------------------ */
+
+  /* =====================home================================== */
+
+  /* ===========================================about================ */
+  .page-image{
+    background-image: url("images/about.jpg");
+    min-height: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: 50%  50%;
+    background-repeat: no-repeat;
+  }
+  .page-image h2{
+    margin-top: 150px;
+    font-weight: 700;
+    font-size:40px;
+    font-family: 'roboto slab';
+    text-transform: capitalize;
+  }
+  .page-intro{
+    background-color:white;
+    height: 450px;
+  }
+  .page-intro p{
+    line-height: 2.0;
+    font-size: 19px;
+    font-family: 'open sans';
+    text-align: justify;
+    margin-left: 7px;
+    color: black;
+    font-weight: 900;
+ }
+  
+  
+  .page-intro .page-txt{
+    font-size: 14px;
+    line-height: 2.0;
+    font-family: 'open sans';
+    text-align: justify;
+    
+  }
+  .page-intro img{
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-we{
+    background-color: black;
+    height: 860px;
+  }
+  .about-we .full-title{
+    color: red;
+    font-family: 'roboto slab';
+    font-size: 34px;
+  }
+   .about-we p{
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .about-we img{
+    width: 330px;
+    height: 200px;
+  }
+  .service{
+    background-color:rgb(25,30,30);
+    height: 800px;
+  }
+  .service h3{
+    color: red;
+    font-family: 'roboto slab';
+    font-weight: 900;
+  }
+  .service i{
+    padding-right: 5px;
+  }
+  .service p{
+    color: white;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: 'open sans';
+
+  }
+ .service .services{
+   padding-bottom: 10px;
+ }
+
+
+
+ /* ================================================ABOUT ================*/
+ /* ======================CONTACT==================== */
+ 
+ .contact-us{
+  background-image: url("images/contact.jpeg");
+  min-height: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: 50%  50%;
+  background-repeat: no-repeat;
+}
+.contact-us h2{
+  margin-top: 150px;
+  font-weight: 700;
+  font-size:40px;
+  font-family: 'roboto slab';
+  text-transform: capitalize;
+}
+
+.contact-section h2{
+  color:white;
+  text-align: center;
+  font-family: 'roboto slab';
+  text-transform: capitalize;
+}
+
+.contact-section .form-group{
+  margin-bottom: 30px;
+}
+.contact-section #contact{
+margin-top: 50px;
+width: 420px;
+}
+
+.contact-section #contact input{
+  height: 45px;
+  box-shadow: none;
+  width: 250px;
+  margin-left: 35px;
+}
+.contact-section #contact select{
+  height: 50px;
+  color: white;
+  box-shadow: none;
+  width: 250px;
+  margin-left: 35px;
+}
+.contact-section #contact textarea{
+  border-radius: 30px;
+  width:250px;
+  height: 100px;
+  box-shadow: none;
+  margin-left: 50px;
+  
+}
+.contact-section #contact input, .contact-section #contact #enquiry {
+  border-radius: 20px;
+}
+.contact-section #contact textarea{
+ border-radius: 10px;
+}
+.contact-section #contact button{
+margin-left: 140px;
+background-color: #ea1818;
+border-radius: 26px;
+color: white;
+border: 0px;
+}
+.contact-section{
+  background-color: #000;
+  max-width: 100%;
+  height: auto;
+  background-position:right;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: -15px;
+  
+}
+.contact-section .form-control{
+  background-color: #1f1d1c;
+  border: 1px solid #eee;
+
+}
+
+
+.full-map{
+  background-color:rgb(50,50,50) ;
+}
+.full-map li{
+  list-style: none;
+}
+.full-map h3{
+  color:lightgreen;
+  font-family: 'roboto slab';
+
+}
+.full-map span{
+  color: white;
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.full-map a{
+  color:lightgreen;
+  font-family: 'roboto slab';
+}
+.full-map iframe{
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+/* -----------end---------- */
+/* ---------------footer----- */
+
+/* ===========================================customer=================== */
+
+.customer{
+  background-image: url("images/customer.jpg");
+  min-height: 300px;
+  position: relative;
+  background-size: cover;
+  background-position: 50%  50%;
+  background-repeat: no-repeat;
+
+}
+
+.customer h1{
+  font-family: 'roboto slab';
+  color: white;
+  padding-top: 50px;
+
+}
+
+
+body {
+  background:white;
+}
+.text-animation {
+  color:#fff;
+  opacity:0;
+}
+.text-animation span {
+  position:relative;
+  top:10px;
+  left:10px;
+  font-size:14px;
+  font-weight:600;
+  opacity:0;
+  text-transform:uppercase;
+  font-family: cursive;
+  animation:fade 400ms ease-in-out forwards;
+}
+.center {
+  position:absolute;
+  top:65%;
+  left:159px ;
+  transform:translate(-50%,-50%);
+}
+@keyframes fade {
+  0% {
+    top:10px;
+    left:10px;
+    filter:blur(15px);
+    opacity:0;
+  }
+  50% {
+    filter:blur(10px);
+    opacity:0.9;
+  }
+  100% {
+    top:0px;
+    left:0px;
+    filter:blur(0px);
+    opacity:1;
+  }  
+}
+
+
+
+
+  
+.customer-estimation h2{
+  font-size: 30px;
+  font-family: 'roboto slab';
+  color: white;
+  font-weight: 900;
+  margin-top: 68px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.customer-estimation .form-group{
+  margin-bottom: 30px;
+}
+.customer-estimation #contact{
+  margin-top: 50px;
+  width: 420px;
+}
+
+.customer-estimation #contact input{
+  height: 45px;
+  box-shadow: none;
+  width: 250px;
+  margin-left: 35px;
+}
+.customer-estimation #contact select{
+  height: 50px;
+  color: black;
+  box-shadow: none;
+  width: 250px;
+  margin-left: 35px;
+}
+.customer-estimation #contact textarea{
+  border-radius: 30px;
+  width:250px;
+  height: 100px;
+  box-shadow: none;
+  margin-left: 50px;
+  
+}
+.customer-estimation #contact input, .customer-estimation #contact #enquiry {
+  border-radius: 0px;
+}
+
+.customer-estimation #contact button{
+margin-left: 140px;
+background-color: #ea1818;
+border-radius: 26px;
+color: white;
+border: 0px;
+}
+.customer-estimation{
+  background-color: #000;
+  max-width: 100%;
+  height: auto;
+  background-position:right;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: -15px;
+  
+}
+.customer-estimation .form-control{
+  border: 1px solid #eee;
+}
+
+.Estimation-step{
+  background-color: white;
+}
+
+.Estimation-step img{
+  width: 300px;
+  height: 290px;
+  margin-top: 20px;
+  margin-left: 28px;  
+}
+.Estimation-step h3{
+  font-family: 'roboto slab';
+  font-weight: 900;
+  color: red;
+}
+.Estimation-step p{
+  color: black;
+  font-family: 'open sans';
+  font-weight: 600;
+  line-height: 2.0;
+
+}
+
+.full-estimation{
+  background-color: #1f1d1c;
+
+}
+.full-estimation img{
+  width: 300px;
+  height: 300px;
+  margin-left: 24px;
+  padding-bottom: 20px;
+}
+
+.full-estimation h3{
+  font-family: 'roboto slab';
+  font-weight: 900;
+  color: lightgreen;
+}
+
+.full-estimation p{
+  color:white;
+  font-family: 'open sans';
+  font-weight: 600;
+  line-height: 2.0;
+  margin-left: 15px;
+  text-transform: uppercase;
+
+}
+
+

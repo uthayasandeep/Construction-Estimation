@@ -1,0 +1,872 @@
+@media (min-width : 480px) and (max-width :768px) {
+    html,body{
+        width: 100%;
+    }
+    /* --------------------index-------- */
+    .Modern-Slider{
+       
+        height: 500px;
+    }
+
+    .Modern-Slider span {
+        font-size: 38px;
+    }   
+    .Modern-Slider .item h3 {
+        font-size: 24px;
+    }
+    .Modern-Slider .item h5{
+        font-size: 20px;
+    }
+    .Modern-Slider .item .info > div {
+        margin-top: 150px;
+    }
+    .intro-section .intro-page {
+        min-height: 290px;
+    }    
+    .index-third img{
+        width: 100%;
+        
+    }
+    .index-third {
+        
+        height: 550px;
+    }   
+
+    .index-four img {
+        width: 100%;
+        height: 350px;
+    }
+    .index-four {
+        height: 659px;
+    }
+
+    .index-five img {
+        width: 100%;
+    }
+    .index-five {
+        height: 820px;
+    }
+    .foot-icon li {
+        padding-right: 100px;
+        margin-left: 44px;
+        font-size: 20px;
+    }
+    .foot-2 li {
+        padding-right: 59px;
+        margin-left: 104px;
+        padding-top: 26px;
+        font-size: 20px;
+    }
+    /* ------------------index------- */
+    /* ----------------customer------ */
+    .customer {
+     min-height: 400px;
+    
+    }
+    
+    .customer h1 {
+        padding-top: 70px;
+        font-size: 50px;
+    }
+
+    .center {
+        left: 400px;
+    }   
+
+    .text-animation span {
+
+        font-size: 25px;
+    }    
+
+    .customer-estimation h2 {
+        font-size: 40px;
+        margin-top: 50px;
+        
+    }
+
+    .customer-estimation #contact input {
+        height: 55px;
+        width: 350px;
+        margin-left: 170px;
+    }
+
+    .customer-estimation #contact select {
+        height: 56px;
+        width: 359px;
+        margin-left: 166px;
+    }
+
+    .customer-estimation .form-group {
+        margin-bottom: 45px;
+    }
+
+    .customer-estimation #contact button {
+        margin-left: 310px;
+    }
+
+    .Estimation-step img {
+        width: 98%;
+        margin-left: 7px;
+    }
+
+    .Estimation-step #scope{
+        margin-left: 10px;
+    }
+
+    .full-estimation #basis{
+        margin-left: 20px;
+    }
+
+    .full-estimation img {
+        width: 94%;
+    }
+    /* ---------------customer--------- */
+    /* ----------about----------- */
+    
+    .page-image {
+        min-height: 400px;
+    }
+
+    .page-image h2 {
+        font-size: 60px;
+    }
+
+    .page-intro img {
+        width: 80%;
+    }
+
+    .page-intro p {
+        font-size: 24px;
+    }
+
+   .about-we h2{
+       font-size: 50px;
+    }
+
+    .about-we p {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+
+    .about-we img {
+        width: 100%;
+        height: 260px;
+        padding-top: 10px;
+    }
+
+    .service h3 {
+        font-size: 30px;
+    }
+
+    .service p {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+    /* ---------------------about---- */
+    /* --------------------contact----------- */
+
+    .contact-us {
+        min-height: 400px;
+    }
+
+    .contact-us h2 {
+       font-size: 60px;
+    }
+
+    .contact-section h2 {
+        font-size: 50px;
+    }
+
+    .contact-section #contact {
+        margin-left: 180px;
+    }
+
+    .full-map iframe {
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .full-map li {
+        padding-top: 10px;
+    }
+
+    .full-map h3 {
+        font-size: 30px;
+    }
+
+    .full-map span {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+
+    #footer {
+        height: 210px;
+    }
+    
+}
+/*--------------end 768---------------  */
+
+/* ----------------1129--- */
+
+@media (min-width : 992px) and (max-width : 1199px) {
+
+    .Modern-Slider {
+        height: 500px;
+    }
+
+    .Modern-Slider span {
+        font-size: 50px;
+    }
+
+    .Modern-Slider .item h3 {
+        font-size: 30px; 
+    }
+
+    .Modern-Slider .item h5 {
+        font-size: 20px;
+    }
+
+    .Modern-Slider .item .info > div {
+        margin-top: 150px;
+    }
+
+    .intro-section h2 {
+        font-size: 35px;
+    }
+
+    .intro-section .intro-page p {
+        line-height: 2.0;
+        font-size: 23px;
+    }
+    
+    .index-third img {
+        width: 420px;
+        height: 400px;
+    }
+
+    .index-third h3 {
+        font-size: 30px;
+    }
+
+    .index-third p {
+        font-size: 24px;
+        line-height: 2.0;
+    }
+
+    .index-third {
+        height: 446px;
+    }
+    .index-four img {
+        width: 480px;
+        height: 450px;
+    }
+    
+    .index-four h3 {
+        font-size: 30px;
+    }
+
+    .index-four p {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .index-four {
+        height: 500px;
+    }
+
+    .index-five p {
+        font-size: 14px;
+        line-height: 2.0;
+    }
+
+    .index-five h3 {
+        font-size: 20px;
+    }
+
+    .index-five img {
+        width: 314px;
+        height: 355px;
+    }
+
+    .index-five {
+        height: 450px;
+    }
+    .why-we p {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+
+    .why-we h2 {
+        font-size: 70px;
+    }
+
+    .foot-icon li {
+        padding-right: 38px;
+        margin-left: 104px;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+
+    .foot-2 li {
+        padding-right: 45px;
+        margin-left: 190px;
+        padding-top: 11px;
+        font-size: 30px;
+    }
+    /* -----------------index --------*/
+    /* ------------customer */
+
+    .customer {
+        min-height: 500px;
+    }
+     
+    .customer h1 {
+        padding-top: 75px;
+        font-size: 57px;
+    }
+ 
+    .center {
+      left: 550px;
+    }   
+ 
+    .text-animation span {
+ 
+        font-size: 33px;
+    }    
+ 
+    .customer-estimation h2 {
+        font-size: 40px;
+        margin-top: 50px;
+         
+    }
+ 
+    .customer-estimation #contact input {
+        height: 55px;
+        width: 350px;
+        margin-left: 170px;
+    }
+
+    .customer-estimation #contact {
+       
+        width: 0px;
+    }
+    
+ 
+    .customer-estimation #contact select {
+        height: 56px;
+        width: 359px;
+        margin-left: 166px;
+    }
+ 
+    .customer-estimation .form-group {
+        margin-bottom: 45px;
+        margin-left: 105px;
+    }
+ 
+    .customer-estimation #contact button {
+        margin-left: 310px;
+        margin-top: 400px;
+    }
+ 
+    .Estimation-step img {
+        width: 100%;
+       margin-left: 30px;
+       height: 330px;
+    }
+ 
+    .Estimation-step #scope{
+        margin-left: 100px;
+    }
+
+    .Estimation-step p {
+    
+        font-size: 14px;
+        text-align: justify;
+    }
+ 
+    .full-estimation #basis{
+        margin-left: 30px;
+    }
+ 
+    .full-estimation img {
+        width: 800px;
+        margin-left: 90px;
+    }
+    /* -------------------customer------- */
+    /* -------about------------ */
+    
+    .page-image {
+        min-height: 400px;
+    }
+
+    .page-image h2 {
+        font-size: 55px;
+    }
+
+    .page-intro img {
+        margin-left: 36px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .page-intro p {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .page-intro {
+        height: 350px;
+    }
+    .page-intro img {
+        width: 80%;
+    }
+
+    .page-intro p {
+        font-size: 24px;
+    }
+
+    .about-we {
+        height: 595px;
+    }
+
+   .about-we h2{
+       font-size: 50px;
+    }
+
+    .about-we p {
+        font-size: 16px;
+        line-height: 2.0;
+    }
+
+    .about-we img {
+        width: 100%;
+     height: 382px;
+     padding-top: 80px;
+
+    }
+
+    .service {
+        height: 600px;
+    }
+    
+    .service h3 {
+        font-size: 30px;
+    }
+
+    .service p {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+    /* -------about-------- */
+    /* ------------contact----- */
+
+    .contact-us {
+        min-height: 500px;
+    }
+
+    .contact-us h2 {
+       font-size: 60px;
+    }
+
+    .contact-section h2 {
+        font-size: 50px;
+    }
+
+    
+
+    .contact-section #contact input {
+        height: 55px;
+        width: 200px;
+        margin-left: 92px;
+    }
+
+    .contact-section #contact select {
+        width: 200px;
+        margin-left: 93px;
+    }
+
+    .contact-section #contact textarea {
+        width: 400px;
+        margin-left: 111px;
+    }
+
+    .contact-section #contact button {
+        margin-left: 260px;
+    }
+
+    .contact-section #contact {
+        margin-left: 180px;
+    }
+
+    .full-map iframe {
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .full-map li {
+        padding-top: 10px;
+    }
+
+    .full-map h3 {
+        font-size: 30px;
+    }
+
+    .full-map span {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+
+    #footer {
+        height: 210px;
+    }
+
+}
+/* -------------end----1129------------------- */
+
+/* -------------start--------1280*/
+
+@media (min-width : 1200px){
+
+    .Modern-Slider {
+        height: 600px;
+    }
+
+    .Modern-Slider span {
+        font-size: 70px;
+    }
+
+    .Modern-Slider .item h3 {
+        font-size: 40px; 
+    }
+
+    .Modern-Slider .item h5 {
+        font-size: 30px;
+    }
+
+    .Modern-Slider .item .info > div {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    .intro-section h2 {
+        font-size: 35px;
+    }
+
+    .intro-section .intro-page p {
+        line-height: 2.0;
+        font-size: 23px;
+    }
+    
+    .index-third img {
+        width: 420px;
+        height: 400px;
+    }
+
+    .index-third h3 {
+        font-size: 30px;
+    }
+
+    .index-third p {
+        font-size: 27px;
+        line-height: 2.0;
+    }
+
+    .index-third {
+        height: 446px;
+    }
+    .index-four img {
+        width: 480px;
+        height: 450px;
+    }
+    
+    .index-four h3 {
+        font-size: 30px;
+    }
+
+    .index-four p {
+        font-size: 20px;
+        line-height: 2.0;
+    }
+
+    .index-four {
+        height: 500px;
+    }
+
+    .index-five p {
+        font-size: 14px;
+        line-height: 2.0;
+    }
+
+    .index-five h3 {
+        font-size: 20px;
+    }
+
+    .index-five img {
+        width: 350px;
+        height: 355px;
+    }
+
+    .index-five {
+        height: 400px;
+    }
+    .why-we p {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+
+    .why-we h2 {
+        font-size: 70px;
+    }
+
+    .foot-icon li {
+        padding-right: 76px;
+        margin-left: 195px;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+
+    .foot-2 li {
+        padding-right: 45px;
+        margin-left: 310px;
+        padding-top: 22px;
+        font-size: 30px;
+    }
+    /* -------------------iindex------ */
+    /* -------------customer------- */
+    .customer {
+        min-height: 600px;
+    }
+     
+    .customer h1 {
+        padding-top: 75px;
+        font-size: 57px;
+    }
+ 
+    .center {
+      left: 659px;
+    }  
+
+    .center {
+        top: 65%
+    }
+
+    .text-animation span {
+ 
+        font-size: 47px;
+    }    
+ 
+    .customer-estimation h2 {
+        font-size: 40px;
+        margin-top: 50px;
+         
+    }
+ 
+    .customer-estimation #contact input {
+        height: 55px;
+        width: 350px;
+        margin-left: 170px;
+    }
+
+    .customer-estimation #contact {
+       
+        width: 0px;
+        margin-left: 100px;
+    }
+    
+ 
+    .customer-estimation #contact select {
+        height: 56px;
+        width: 359px;
+        margin-left: 166px;
+    }
+ 
+    .customer-estimation .form-group {
+        margin-bottom: 45px;
+        margin-left: 105px;
+    }
+ 
+    .customer-estimation #contact button {
+        margin-left: 310px;
+        margin-top: 400px;
+    }
+ 
+    .Estimation-step img {
+        width: 100%;
+       margin-left: 30px;
+       height: 260px;
+    }
+ 
+    .Estimation-step #scope{
+        margin-left: 100px;
+    }
+
+    .Estimation-step p {
+    
+        font-size: 14px;
+        text-align: justify;
+    }
+ 
+    .full-estimation #basis{
+        margin-left: 50px;
+    }
+ 
+    .full-estimation img {
+        width: 100%;
+        margin-left: 530px;
+        margin-top: -268px;
+    }
+    /* -------------------customer--------------- */
+    /* ----------------about------- */
+    .page-image {
+        min-height: 500px;
+    }
+
+    .page-image h2 {
+        font-size: 65px;
+    }
+
+    .page-intro img {
+        margin-left: 36px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .page-intro p {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .page-intro {
+        height: 290px;
+    }
+    .page-intro img {
+        width: 80%;
+    }
+
+    .page-intro p {
+        font-size: 24px;
+    }
+
+    .about-we {
+        height: 595px;
+    }
+
+   .about-we h2{
+       font-size: 50px;
+    }
+
+    .about-we p {
+        font-size: 16px;
+        line-height: 2.0;
+    }
+
+    .about-we img {
+        width: 100%;
+     height: 382px;
+     padding-top: 0px;
+
+    }
+
+    .service {
+        height: 600px;
+    }
+    
+    .service h3 {
+        font-size: 30px;
+    }
+
+    .service p {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+    /* ------about------ */
+    /* -----------contact--------- */
+    
+    .contact-us {
+        min-height: 600px;
+    }
+
+    .contact-us h2 {
+       font-size: 70px;
+       margin-top: 200px;
+    }
+
+    .contact-section h2 {
+        font-size: 50px;
+    }
+
+    
+
+    .contact-section #contact input {
+        height: 55px;
+        width: 200px;
+        margin-left: 160px;
+    }
+
+    .contact-section #contact select {
+        width: 200px;
+        margin-left: 160px;
+    }
+
+    .contact-section #contact textarea {
+        width: 400px;
+        margin-left: 180px;
+    }
+
+    .contact-section #contact button {
+        margin-left: 330px;
+    }
+
+    .contact-section #contact {
+        margin-left: 180px;
+    }
+
+    .full-map iframe {
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .full-map li {
+        padding-top: 10px;
+    }
+
+    .full-map h3 {
+        font-size: 30px;
+    }
+
+    .full-map span {
+        font-size: 19px;
+        line-height: 2.0;
+    }
+
+    #footer {
+ 
+       height: 210px;
+    }
+
+}
+
+/* -------end------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

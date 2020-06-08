@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0  user-scalable=no" name="viewport">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- jQuery library --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/respond.css" rel="stylesheet">
+  <script src="assets/js/script.js"></script>
+ <!-- font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/ebb9a9a5c8.js" crossorigin="anonymous"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+</head>
+<body id= "first-page">
+<!--navigation --  -->
+ <nav class="navbar navbar-custom tt-default-nav sticky" role="navigation">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="color: white; font-family: 'roboto slab';"  href="index.html">VEERA BUILDERS</a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="custom-collapse">
+  
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="customer.html">Customer</a>	</li>			
+          <li><a href="about.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div><!-- /.container -->
+</nav>
+<!-- ----navigation-- -->
+
+
+<section class="contact-us about-us" >
+    <div class="container">
+        <div class="page-txt">
+            <h2 style="color: white;   text-align: center;">Contact Us</h2>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact-section section-padding">.
+    <div class="container">
+        <div class="text-title">
+            <h2 class="section-title">Get in touch</h2>
+        </div><!-- /.col-xs-12 -->
+  
+  
+        <div class="row mt-80">
+            <div class="col-md-7">
+                <form name="contact-form" id="contact" action="sendemail.php"  method="POST" >
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="name">Name</label>
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="email">Email</label>
+                          <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="sr-only" for="subject">Contact-number</label>
+                          <input type="text" name="Contact No" class="form-control" id="subject" placeholder="Contact No">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label  class="sr-only"  for="enquiry" required="required">Select Enquiry Type</label> 
+                          <select class="form-control" id="enquiry" required>
+                            <option value=""  selected hidden>Select Enquiry Type</option>
+                            <option>Flat</option>
+                            <option>House</option>
+                            <option>Land</option>
+                          </select>
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+                      <label class="sr-only" for="message">Message</label>
+                      <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+  
+                  <div class="form-group">
+                   <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>
+                 </div>
+                </form>
+            </div>
+         </div>
+    </div><!-- /.container -->
+</section>
+
+
+<section class="full-map">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4218026935423!2d76.9585985141182!3d11.006945757907781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85906dcdd3263%3A0x812855de8c1b4206!2sVeera%20Towers!5e0!3m2!1sen!2sin!4v1590216349329!5m2!1sen!2sin"frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            
+            <div class="col-md-6" id="address">
+                <li><h3><i class="fa fa-address-card-o"></i>Address<span><br> Dr Krishnasamy Mudaliyar Rd, Puthiyavan Nagar, Sukrawar Pettai, R S Puram West, Coimbatore, Tamil Nadu 641001 </span></h3></li>
+                <li><h3><a href="http://www.prodotype.rs/"><i class="fa fa-globe"></i>WEB <span><br>https://www.realestateindia.com/profile/veera-builders-coimbatore-762806/</span></a></h3></li>
+                <li><h3><i class="fas fa-door-open"></i>Open<span><br>Monday-Saturday:- 09.00am--09.00pm<br>Sunday:- 09am--01.00pm </span></h3></li></li>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="footer" style="background-color:black">
+    <div class="foot-title">
+      <h2 style="text-align: center;">VEERA BUILDERS</h2>
+    </div>
+    <div class="foot-icon">
+      <ul class="list-unstyled quick-links">
+        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="customer.html"><i class="fa fa-user-plus"></i>CUSTOMERS</a></li>
+        <li><a href="about.html"><i class="fa fa-users">ABOUT</i></a></li>
+       
+      </ul>
+    </div>
+    <div class="foot-2">
+      <ul class="list-foot quick-links">
+        <li><a href="contact.html"><i class="fas fa-phone-alt"></i>Contact</a></li>
+        <li><a href="https://www.realestateindia.com/profile/veera-builders-coimbatore-762806/"><i class="fa fa-globe"></i>REAL ESTATE</a></li>
+      </ul>
+    </div>
+</section>
+
+</body>
+</html>
